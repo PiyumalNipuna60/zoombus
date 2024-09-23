@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
@@ -22,6 +23,10 @@ class LoginController extends Controller
     }
 
     public function __invoke(Request $request) {
+      
+
+
+
         $credentials = $request->only('phone_number', 'password');
         if(isset($credentials['phone_number']) && isset($credentials['password'])) {
             $credentials['status'] = [1,2];

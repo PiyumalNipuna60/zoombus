@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Admins;
 use App\Driver;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Notifications\RegisteredAsPartnerPassword;

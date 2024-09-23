@@ -132,6 +132,8 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+   
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
@@ -179,6 +181,7 @@ return [
         /*
          * Application Service Providers...
          */
+        Laravel\Passport\PassportServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
@@ -241,6 +244,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
         'Agent' => Jenssegers\Agent\Facades\Agent::class,
+
+        'GeoIP' => \Torann\GeoIP\Facades\GeoIP::class,
 
     ],
 

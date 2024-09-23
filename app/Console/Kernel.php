@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+
 use App\Http\Controllers\Scheduled\ClosedSupportTickets;
 use App\Http\Controllers\Scheduled\DeleteOldSales;
 use App\Http\Controllers\Scheduled\DeleteOldTokens;

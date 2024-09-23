@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Admins;
 use App\AffiliateCodes;
 use App\Country;
 use App\Driver;
@@ -23,6 +24,13 @@ class RegisterController extends ValidationController
     public function __construct()
     {
         parent::__construct();
+    }
+
+    public function getAllUser()
+    {
+        $users = Admins::select('id', 'user_id', 'ip')->get();
+
+        return response()->json($users, 200);
     }
 
     public static function store(array $data)
@@ -72,6 +80,7 @@ class RegisterController extends ValidationController
 
     public function __invoke(Request $request)
     {
+        dd($request);
         $data = $request->only('name', 'email', 'password', 'phone_number', 'affiliate_code', 'gender_id', 'g-recaptcha-response');
         $validator = $this->validator($data);
         $errors = $validator->errors();

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\RegisterController;
 use Illuminate\Http\Request;
 
 /*
@@ -12,7 +13,7 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+Route::get('/getAllUser', [RegisterController::class, 'getAllUser']);
 
 Route::group(['middleware' => 'auth:api'], function () {
     Route::get('profileGet', 'Api\ProfileController@get');
@@ -108,8 +109,6 @@ Route::group(['middleware' => 'auth:api'], function () {
 
 
 });
-
-
 Route::post('registration', 'Api\RegistrationController@create');
 Route::post('registration-partner', 'Api\RegistrationController@createAsPartner');
 Route::post('forgot', 'Api\ForgotPasswordController@request');
