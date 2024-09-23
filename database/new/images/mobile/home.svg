@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #888;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="home" transform="translate(-2 -1)">
+    <path id="Path_70" data-name="Path 70" class="cls-1" d="M3,9l9-7,9,7V20a2,2,0,0,1-2,2H5a2,2,0,0,1-2-2Z"/>
+    <path id="Path_71" data-name="Path 71" class="cls-1" d="M9,22V12h6V22"/>
+  </g>
+</svg>
