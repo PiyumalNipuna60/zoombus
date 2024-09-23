@@ -1,0 +1,532 @@
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.vdp-datepicker {
+    position: static;
+}
+
+.borderless-form .form-group {
+    margin-bottom: 0;
+}
+
+.borderless-form .form-group .form-control {
+    outline:none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.language_ge .borderless-form .form-group .form-control {
+    font-family: 'dejavu_sansextralight', sans-serif;
+}
+
+.form-group label.img_label {
+    display: block;
+    padding: 7px 0 0 0;
+    position: absolute;
+    z-index:100;
+}
+
+.nopaddingauto {
+    width:auto !important;
+    min-width:24px !important;
+    height:auto !important;
+    padding:0 !important;
+}
+
+.borderless-form.bordered .form-group label.img_label.plb img {
+    margin-left:10px;
+    margin-top:5px;
+    padding-bottom:0;
+}
+
+
+.form-group label.img_label.plb img {
+    margin-left:5px;
+    padding-bottom:5px;
+}
+
+
+.borderless-form label.img_label.selectLabel {
+    z-index:6;
+    padding-top:4px;
+}
+
+.form-group label.img_label.plb.selectLabel img {
+    padding-bottom:0;
+    margin-top:0;
+}
+
+.language_ge .form-group .form-control {
+    font-family: 'dejavu_sansextralight', sans-serif;
+}
+
+
+.borderless-form .v-select {
+    border:none;
+}
+
+.relative {
+    position: relative;
+}
+
+.interlink {
+    position: absolute;
+    margin: 44px 0 0 -6px;
+    height: 90px;
+}
+
+.rightArrow {
+    position: absolute;
+    right:-18px;
+    top:30px;
+}
+
+
+.payout_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.payout_box .radioGroupPadding {
+    padding-bottom:20px;
+}
+
+.payout_box .radioGroupPadding:last-child {
+    padding-bottom:0;
+}
+
+
+.payout_box .form_label {
+    padding-bottom:2px;
+}
+
+.payout_box .form_label::after {
+    position: absolute;
+    background: url("../../assets/images/mobile/right_arrow.svg") no-repeat;
+    right:10px;
+    top:20px;
+}
+
+.payout_box .radio-custom .form_label label {
+    font-family: 'dejavu_sansextralight', sans-serif;
+    font-size: 10px;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.payout_box .radio-custom a.button {
+    display: block;
+    color: #252941;
+    position: relative;
+    padding: 17px 32px;
+    background-color: #fafafa;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+    cursor: pointer;
+    border: 1px solid #E6E8EA;
+    border-radius: 4px;
+}
+.payout_box .radio-custom a.button img {
+    margin: 0 10px;
+}
+
+.payout_box  .financialArrow {
+    position: absolute;
+    right:5px;
+    top:18px;
+}
+
+.payout_box .financialArrow img {
+    height:13px;
+}
+
+.form-group .file-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    margin-top: 5px;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+}
+.form-group .file-upload.redBorder {
+    border: 1px solid #f50052;
+}
+
+.form-group .file-upload .upload_box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0 0 0;
+    width: 80px;
+    height: 80px;
+    z-index:100;
+    border: 1px solid #dedede;
+    border-radius: 100%;
+}
+.form-group .file-upload .upload_box label.file-upload_label {
+    position: absolute;
+}
+.form-group .file-upload .upload_box label.file-upload_label img {
+    vertical-align: inherit;
+}
+.form-group .file-upload .upload_box .file-upload_input {
+    display: none;
+}
+
+.no-transform {
+    transform: none !important;
+    line-height: inherit !important;
+}
+
+.seat_box {
+    position: relative;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.scheme_end button {
+    letter-spacing: 0;
+    outline: none;
+    border: none;
+    color: #FFF !important;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-in-out;
+    height:24px !important;
+}
+
+.minivan_scheme .scheme_end button {
+    margin-top:-25px;
+}
+
+
+.minivan_scheme .scheme_start {
+    background: url("../../assets/images/mobile/schemes/minivan-start.png") no-repeat;
+    width: 282px;
+    height: 276px;
+    background-size: 282px 276px;
+}
+
+.minivan_scheme .scheme_container {
+    background: url("../../assets/images/mobile/schemes/minivan-mid.png") repeat-y;
+    width: 282px;
+    background-size: 282px 1px;
+}
+
+.minivan_scheme .scheme_end {
+    background: url("../../assets/images/mobile/schemes/minivan-end.png") no-repeat;
+    width: 282px;
+    height: 47px;
+    background-size: 282px 47px;
+    justify-content: center;
+    display: flex;
+}
+
+.minivan_scheme .scheme_end button {
+    width: 185px;
+}
+
+
+.minivan_scheme .removeSeat {
+    position: absolute;
+    right:10px;
+    top:23px;
+}
+
+
+.minivan_scheme .filler {
+    background-color: #FFF;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 18px;
+    top: 33px;
+}
+
+
+.minivan_scheme .vehicle_wheel {
+    position: absolute;
+    margin: -166px 0 0 72px;
+}
+
+
+.minivan_scheme .taken_by_driver.driver {
+    display: block;
+    position: absolute;
+    width: 47px;
+    height: 96px;
+    background: url('../../assets/images/mobile/transport/orange_seat.svg') no-repeat;
+    background-size: 100% 94px;
+    top: 153px;
+    left: 96px;
+}
+
+.minivan_scheme .vehicle_seat {
+    display: block;
+    position: absolute;
+    width: 47px;
+    height: 45px;
+}
+
+.minivan_scheme .vehicle_seat.available {
+    background: url('../../assets/images/mobile/transport/grey_seat.svg') no-repeat;
+}
+
+.minivan_scheme .vehicle_seat.preserved {
+    background: url('../../assets/images/mobile/transport/orange_seat.svg') no-repeat;
+}
+
+.minivan_scheme .vehicle_seat.purchased {
+    background: url('../../assets/images/mobile/transport/blue_seat.svg') no-repeat;
+    color:#FFF;
+}
+
+.minivan_scheme .vehicle_seat span {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    padding-right: 2px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+}
+
+
+
+.bus_scheme .scheme_start {
+    background: url("../../assets/images/mobile/schemes/bus-start.png") no-repeat;
+    width: 282px;
+    height: 169px;
+    background-size: 282px 169px;
+}
+
+.bus_scheme .scheme_container {
+    background: url("../../assets/images/mobile/schemes/bus-mid.png") repeat-y;
+    width: 282px;
+    background-size: 282px 1px;
+}
+
+.bus_scheme .scheme_end {
+    background: url("../../assets/images/mobile/schemes/bus-end.png") no-repeat;
+    width: 282px;
+    height: 47px;
+    background-size: 282px 47px;
+    justify-content: center;
+    display: flex;
+}
+
+.bus_scheme .scheme_end button {
+    width: 185px;
+}
+
+
+.bus_scheme .removeSeat {
+    position: absolute;
+    right:6px;
+    top:20px;
+}
+
+
+.bus_scheme .filler {
+    background-color: #FFF;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 12px;
+    top: 30px;
+}
+
+
+.bus_scheme .vehicle_wheel {
+    position: absolute;
+    margin: -15px 0 0 65px;
+}
+
+
+.bus_scheme .taken_by_driver.driver {
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 47px;
+    background: url('../../assets/images/mobile/transport/orange_seat.svg') no-repeat;
+    background-size: 100%;
+    top: 133px;
+    left: 88px;
+}
+
+.bus_scheme .vehicle_seat {
+    display: block;
+    position: absolute;
+    width: 39px;
+    height: 37px;
+}
+
+.bus_scheme .vehicle_seat.available {
+    background: url('../../assets/images/mobile/transport/grey_seat.svg') no-repeat;
+    background-size: 100%;
+}
+.bus_scheme .vehicle_seat.preserved {
+    background: url('../../assets/images/mobile/transport/orange_seat.svg') no-repeat;
+    background-size: 100%;
+}
+
+.bus_scheme .vehicle_seat.purchased {
+    background: url('../../assets/images/mobile/transport/blue_seat.svg') no-repeat;
+    background-size: 100%;
+    color:#FFF;
+}
+
+
+.bus_scheme .vehicle_seat span {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    padding-right: 2px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+}
+
+
+
+
+
+
+.car_scheme .scheme_start {
+    background: url("../../assets/images/mobile/schemes/car.png") no-repeat;
+    width: 240px;
+    height: 548px;
+    background-size: 240px 548px;
+}
+
+
+.car_scheme .removeSeat {
+    position: absolute;
+    right:6px;
+    top:20px;
+}
+
+
+.car_scheme .filler {
+    background-color: #FFF;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 12px;
+    top: 30px;
+}
+
+
+.car_scheme .vehicle_wheel {
+    position: absolute;
+    margin: -360px 0 0 63px;
+}
+
+
+.car_scheme .taken_by_driver.driver {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 47px;
+    background: url('../../assets/images/mobile/transport/orange_seat.svg') no-repeat;
+    background-size: 100%;
+    top: 260px;
+    left: 105px;
+}
+
+.car_scheme .vehicle_seat {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 47px;
+}
+
+.car_scheme .vehicle_seat.available {
+    background: url('../../assets/images/mobile/transport/grey_seat.svg') no-repeat;
+    background-size: 100%;
+}
+
+.car_scheme .vehicle_seat.preserved {
+    background: url('../../assets/images/mobile/transport/orange_seat.svg') no-repeat;
+    background-size: 100%;
+}
+
+.car_scheme .vehicle_seat.purchased {
+    background: url('../../assets/images/mobile/transport/blue_seat.svg') no-repeat;
+    background-size: 100%;
+    color:#FFF;
+}
+
+.car_scheme .vehicle_seat span {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    padding-right: 2px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+.new_section {
+    display: block;
+    width: 100%;
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.new_section h3.title_section {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    width: 200px;
+}
+
+
+.language_ge .new_section h3.title_section {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}
+
+.swiper-navigation {
+    position: absolute;
+    top:85px;
+    width: 100%;
+}
+
+.swiper-navigation .prev {
+    left: -25px;
+    position: absolute;
+}
+
+.swiper-navigation .next {
+    right: -25px;
+    position: absolute;
+}

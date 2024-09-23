@@ -1,0 +1,39 @@
+section {
+    padding-top: 5px;
+}
+section .lang_list {
+    padding-top: 100px;
+    margin: 0 30px;
+}
+section a {
+    text-decoration: none;
+}
+section a .lang {
+    display: -webkit-box;
+    color: #333;
+}
+
+section a .lang p.lang_title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight:300;
+    line-height: 35px;
+    margin-bottom: 0;
+}
+
+section a .lang.ka p.lang_title {
+    font-weight:400;
+    font-family: 'dejavu_sansextralight', sans-serif;
+}
+
+section a .lang img {
+    padding-right: 15px;
+}
+
+
+.single_list {
+    margin-bottom:10px;
+    display:block;
+    padding-bottom:10px;
+    border-bottom:1px solid rgba(0,0,0, 0.04);
+}

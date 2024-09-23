@@ -1,0 +1,32 @@
+[
+    {
+        "address_id": 1,
+        "name": "სადგურის მოედანი",
+        "locale": "ka"
+    },
+    {
+        "address_id": 1,
+        "name": "Привокзальная площадь",
+        "locale": "ru"
+    },
+    {
+        "address_id": 1,
+        "name": "Station Square",
+        "locale": "en"
+    },
+    {
+        "address_id": 2,
+        "name": "მახინჯაურის მოედანი",
+        "locale": "ka"
+    },
+    {
+        "address_id": 2,
+        "name": "Площадь Махинджаури",
+        "locale": "ru"
+    },
+    {
+        "address_id": 2,
+        "name": "Makhinjauri Square",
+        "locale": "en"
+    }
+]

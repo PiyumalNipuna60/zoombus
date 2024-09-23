@@ -1,0 +1,116 @@
+.header {
+    margin-top: 0;
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 101;
+}
+.header.child {
+    margin-top:-90px;
+}
+
+.mt30 {
+    padding-top:115px !important;
+}
+
+.languages_menu {
+    float: right;
+    margin-top: -33px;
+    margin-right: 25px;
+}
+
+.languages_menu img {
+    width:30px;
+}
+
+.largerLogo {
+    font-size:64px !important;
+    margin-bottom: 4px !important;
+    padding-top: 6px !important;
+}
+
+.header .breadcrumb {
+    margin-top: 20px;
+}
+
+.header .breadcrumb a {
+    cursor: pointer;
+    margin-left: 30px;
+}
+.header .breadcrumb h3.head_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    font-size:18px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+}
+
+.language_ge .header .breadcrumb h3.head_title {
+    font-size: 15px;
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}
+
+
+.header .breadcrumb h3.head_title.hasParent {
+    margin-top:-20px;
+}
+
+.language_ge .header .breadcrumb h3.head_title.hasParent {
+    margin-top:-17px;
+}
+
+
+.language_ge .header .breadcrumb h3.head_title {
+    font-family: "bpg_nino_mtavrulinormal", sans-serif;
+}
+
+.header .breadcrumb h3.head_title span {
+    padding-left: 5px;
+    color: #F79A1D;
+}
+
+.header_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+    margin-bottom: 20px;
+}
+
+.header_logo img {
+    width:45px;
+}
+
+.header_logo .company_title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 57px;
+    font-weight: 100;
+    color: #808080;
+}
+
+.logo_caption {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.language_ge .logo_caption {
+    font-family: 'bpg_nino_mtavrulibold', sans-serif;
+}
+
+.header_logo div.caption2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #000;
+    padding: 0;
+}
+
+.language_ge .header_logo div.caption2 {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}

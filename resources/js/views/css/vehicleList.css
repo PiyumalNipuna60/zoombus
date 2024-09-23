@@ -1,0 +1,107 @@
+section {
+    margin:90px 20px 105px 20px;
+}
+
+section .transport {
+    display: grid;
+    grid-template-columns: 16% 65% 19%;
+    margin-bottom: 20px;
+}
+section .transport .first_box img.minibus {
+    width: 45px;
+}
+section .transport .first_box img.bus {
+    width: 57px;
+}
+section .transport .first_box img.taxi {
+    width: 50px;
+    margin: 8px 0 0 4px;
+}
+section .transport .first_box img.carpooling {
+    width: 50px;
+    margin: 8px 0 0 4px;
+}
+section .transport .first_transport_box img.minibus {
+    width: 45px;
+    padding-top: 10px;
+}
+section .transport .first_transport_box img.bus {
+    width: 57px;
+}
+section .transport .first_transport_box img.taxi {
+    width: 50px;
+    margin: 14px 0 0 4px;
+}
+section .transport .first_transport_box img.carpooling {
+    width: 50px;
+    margin: 16px 0 0 4px;
+}
+section .transport .second_transport_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-bottom: 1px solid #F0F0F0;
+    height: 62px;
+}
+section .transport .second_transport_box .zoom_tr_title {
+    margin: 7px 0 -5px 5px;
+}
+section .transport .second_transport_box .zoom_tr_title h3.transport_title {
+    font-family: 'bpg_nino_mtavrulibold', sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+}
+section .transport .second_transport_box .zoom_transport_type {
+    margin-left: 5px;
+}
+section .transport .second_transport_box .zoom_transport_type h4.title_vehicle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+
+section .transport .third_transport_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 9px;
+}
+section .transport .third_transport_box p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+section .transport .third_transport_box p.date_add {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+.language_ge section .transport .third_transport_box p.date_add {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}
+
+section .transport .third_transport_box a.button_view {
+    display: block;
+    width: 70px;
+    height: 19px;
+    background-color: #1491E6;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: 'dejavu_sansextralight', sans-serif;
+    font-weight: 300;
+    padding: 2px 0;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+section .transport .tird_transport_box a.button_view:hover {
+    background-color: #F79A1D;
+}
+
+

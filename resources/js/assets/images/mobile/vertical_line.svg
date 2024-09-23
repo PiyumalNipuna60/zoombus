@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1" height="48" viewBox="0 0 1 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ededed;
+      }
+    </style>
+  </defs>
+  <rect id="line" class="cls-1" width="1" height="48" rx="0.5" transform="translate(0)"/>
+</svg>

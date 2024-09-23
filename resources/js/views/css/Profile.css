@@ -1,0 +1,84 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:90px 0 105px;
+}
+
+section .name_title {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 8px;
+    padding-top: 18px;
+}
+section .name_title h4 {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.language_ge section .name_title h4 {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}
+
+section .name_title p.country_from {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #707070;
+}
+
+.language_ge section .name_title p.country_from {
+    font-family: 'dejavu_sansextralight', sans-serif;
+}
+
+section .personal_photo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+section .personal_photo img {
+    display: block;
+    width: 123px;
+    height: 123px;
+    border-radius: 100%;
+}
+section .personal_photo .file-upload {
+    position: absolute;
+}
+section .personal_photo .file-upload .file-upload_label {
+    width: 32px;
+    height: 32px;
+    background-color: #007bdd;
+    color: #fff;
+    border-radius: 100%;
+    display: flex;
+    line-height: 31px;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 0 75px;
+}
+
+section .personal_photo .file-upload .file-upload_label img {
+    width: 22px;
+    height: 22px;
+    color:#FFF;
+    background-color: #FFF;
+}
+
+section .personal_photo .file-upload .file-upload_label:hover {
+    cursor: pointer;
+    background: #F79A1D;
+}
+section .personal_photo .file-upload .file-upload_input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+}

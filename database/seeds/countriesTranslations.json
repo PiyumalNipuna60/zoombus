@@ -1,0 +1,77 @@
+[
+    {
+        "country_id": 12,
+        "name": "სომხეთი",
+        "locale": "ka"
+    },
+    {
+        "country_id": 12,
+        "name": "Armenia",
+        "locale": "en"
+    },
+    {
+        "country_id": 12,
+        "name": "Армения",
+        "locale": "ru"
+    },
+    {
+        "country_id": 16,
+        "name": "აზერბაიჯანი",
+        "locale": "ka"
+    },
+    {
+        "country_id": 16,
+        "name": "Azerbaijan",
+        "locale": "en"
+    },
+    {
+        "country_id": 16,
+        "name": "Азербайджан",
+        "locale": "ru"
+    },
+    {
+        "country_id": 80,
+        "name": "საქართველო",
+        "locale": "ka"
+    },
+    {
+        "country_id": 80,
+        "name": "Georgia",
+        "locale": "en"
+    },
+    {
+        "country_id": 80,
+        "name": "Грузия",
+        "locale": "ru"
+    },
+    {
+        "country_id": 222,
+        "name": "Turkey",
+        "locale": "en"
+    },
+    {
+        "country_id": 222,
+        "name": "თურქეთი",
+        "locale": "ka"
+    },
+    {
+        "country_id": 222,
+        "name": "Турция",
+        "locale": "ru"
+    },
+    {
+        "country_id": 181,
+        "name": "Russian Federation",
+        "locale": "en"
+    },
+    {
+        "country_id": 181,
+        "name": "რუსეთის ფედერაცია",
+        "locale": "ka"
+    },
+    {
+        "country_id": 181,
+        "name": "Российская Федерация",
+        "locale": "ru"
+    }
+]

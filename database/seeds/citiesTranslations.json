@@ -1,0 +1,192 @@
+[
+    {
+        "city_id": 1,
+        "name": "Tbilisi",
+        "locale": "en"
+    },
+    {
+        "city_id": 1,
+        "name": "თბილისი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 2,
+        "name": "Batumi",
+        "locale": "en"
+    },
+    {
+        "city_id": 2,
+        "name": "ბათუმი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 3,
+        "name": "Gori",
+        "locale": "en"
+    },
+    {
+        "city_id": 3,
+        "name": "გორი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 4,
+        "name": "Poti",
+        "locale": "en"
+    },
+    {
+        "city_id": 4,
+        "name": "ფოთი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 5,
+        "name": "Kutaisi",
+        "locale": "en"
+    },
+    {
+        "city_id": 5,
+        "name": "ქუთაისი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 6,
+        "name": "Telavi",
+        "locale": "en"
+    },
+    {
+        "city_id": 6,
+        "name": "თელავი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 7,
+        "name": "Gurjaani",
+        "locale": "en"
+    },
+    {
+        "city_id": 7,
+        "name": "გურჯაანი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 8,
+        "name": "Kobuleti",
+        "locale": "en"
+    },
+    {
+        "city_id": 8,
+        "name": "ქობულეთი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 9,
+        "name": "Khashuri",
+        "locale": "en"
+    },
+    {
+        "city_id": 9,
+        "name": "ხაშური",
+        "locale": "ka"
+    },
+    {
+        "city_id": 10,
+        "name": "Rustavi",
+        "locale": "en"
+    },
+    {
+        "city_id": 10,
+        "name": "რუსთავი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 11,
+        "name": "Zugdidi",
+        "locale": "en"
+    },
+    {
+        "city_id": 11,
+        "name": "ზუგდიდი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 12,
+        "name": "Samtredia",
+        "locale": "en"
+    },
+    {
+        "city_id": 12,
+        "name": "სამტრედია",
+        "locale": "ka"
+    },
+    {
+        "city_id": 13,
+        "name": "Senaki",
+        "locale": "en"
+    },
+    {
+        "city_id": 13,
+        "name": "სენაკი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 14,
+        "name": "Marneuli",
+        "locale": "en"
+    },
+    {
+        "city_id": 14,
+        "name": "მარნეული",
+        "locale": "ka"
+    },
+    {
+        "city_id": 15,
+        "name": "Akhaltsikhe",
+        "locale": "en"
+    },
+    {
+        "city_id": 15,
+        "name": "ახალციხე",
+        "locale": "ka"
+    },
+    {
+        "city_id": 16,
+        "name": "Ozurgeti",
+        "locale": "en"
+    },
+    {
+        "city_id": 16,
+        "name": "ოზურგეთი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 17,
+        "name": "Kaspi",
+        "locale": "en"
+    },
+    {
+        "city_id": 17,
+        "name": "კასპი",
+        "locale": "ka"
+    },
+    {
+        "city_id": 18,
+        "name": "Tchiatura",
+        "locale": "en"
+    },
+    {
+        "city_id": 18,
+        "name": "ჭიათურა",
+        "locale": "ka"
+    },
+    {
+        "city_id": 19,
+        "name": "Tskaltubo",
+        "locale": "en"
+    },
+    {
+        "city_id": 19,
+        "name": "წყალტუბო",
+        "locale": "ka"
+    }
+]

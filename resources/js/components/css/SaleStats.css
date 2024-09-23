@@ -1,0 +1,35 @@
+.sale_stats {
+    position: relative;
+    display: block;
+    text-align: right;
+}
+.sale_stats .info {
+    background-color: #fff !important;
+}
+
+.sale_stats .info h2 {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #778087;
+}
+.language_ge .sale_stats .info h2 {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}
+
+.sale_stats .info .total {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    line-height: 34px;
+    font-weight: normal;
+    font-family: 'BebasNeue-Bold', sans-serif;
+}
+.sale_stats .info .total span {
+    font-size: 35px;
+    font-weight: 400;
+    color: #818181;
+    text-transform: uppercase;
+}

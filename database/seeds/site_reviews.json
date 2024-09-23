@@ -1,0 +1,11 @@
+[
+  {
+    "image": "/images/reviews03.jpg", "name": "Sandro Vardy", "rating": "5", "comment":  "Innovational idea with a potential to help millions in the business"
+  },
+  {
+    "image": "/images/reviews01.jpg", "name": "George Smith", "rating": "5", "comment":  "Very flexible website for those who are drivers, great customer side and service too"
+  },
+  {
+    "image": "/images/reviews02.jpg", "name": "Kelly Cunningham", "rating": "5", "comment":  "This website has helped me get carpooling tickets in my area in a very quick way"
+  }
+]

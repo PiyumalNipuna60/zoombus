@@ -1,0 +1,31 @@
+.form {
+    padding:0;
+}
+
+.disabledForm {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.disabledForm .notTransparent {
+    opacity: 1;
+}
+
+.borderless-form {
+    width:90%;
+}
+
+.borderless-form.w100 {
+    width:100%;
+}
+
+.borderless-form .form-group:last-child {
+    margin-bottom:0;
+}
+
+.borderless-form a {
+    text-decoration: none;
+    color: inherit;
+}
+
+

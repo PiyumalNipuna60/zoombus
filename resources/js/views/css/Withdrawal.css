@@ -1,0 +1,165 @@
+section {
+    margin:90px 20px 105px 20px;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh);
+}
+section .withdrawal_stats {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    display: block;
+    padding: 15px 30px;
+}
+section .withdrawal_stats .info {
+    background-color: #fff !important;
+}
+
+section .withdrawal_stats .info h2 {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #778087;
+}
+.language_ge section .withdrawal_stats .info h2 {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}
+
+
+
+section .withdrawal_stats .info .total {
+    padding-top: 5px;
+    color: #F79A1D;
+    margin-bottom: 5px;
+    font-size: 35px;
+    line-height: 34px;
+    font-weight: normal;
+    font-family: 'BebasNeue-Bold', sans-serif;
+}
+section .withdrawal_stats .info .total span {
+    font-size: 35px;
+    font-weight: 400;
+    color: #818181;
+    text-transform: uppercase;
+}
+
+section .withdraw_new {
+    margin:30px 0 20px;
+}
+
+
+section  h2.title_area {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.language_ge section h2.title_area {
+    font-family: 'bpg_nino_mtavrulibold', sans-serif;
+}
+
+
+section .list {
+    margin-top: 20px;
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+
+
+
+
+section .list .item {
+    display: grid;
+    grid-template-columns: 15% 55%  30%;
+    height: 70px;
+    padding-left: 10px;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px solid #D7DDE1;
+}
+
+section .list .item:last-child {
+    border-bottom: none;
+}
+
+section .list .item > img.card {
+    display: block;
+    border-radius: 0;
+    border: none;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+section .list .item img {
+    display: block;
+    border-radius: 100%;
+}
+section .list .item .description {
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    align-self: center;
+    padding-left: 10px;
+}
+section .list .item .description .title_area {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.language_ge section .list .item .description .title_area {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}
+section .list .item .description .withdraw_date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.language_ge section .list .item .description .withdraw_date {
+    font-family: 'bpg_nino_mtavrulibold', sans-serif;
+    font-weight: bold;
+}
+section .list .item .description p.description_area {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+section .list .item .last_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+section .list .item .last_content div.amount {
+    color: #1308FE;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+section .list .item .last_content div.amount span {
+    color: #333;
+    text-transform: uppercase;
+}
+section .list .item .last_content div.status {
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.language_ge section .list .item .last_content div.status {
+    font-family: 'bpg_nino_mtavrulibold', sans-serif;
+    font-weight: bold;
+}

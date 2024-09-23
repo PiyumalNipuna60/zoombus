@@ -1,0 +1,27 @@
+section {
+    margin:0 20px 105px 20px;
+}
+
+section .transfer_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 0;
+}
+section .transfer_logo img {
+    width: 110px;
+}
+
+
+section .transfer_logo p.logo_caption {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+.language_ge section .transfer_logo p.logo_caption {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+}

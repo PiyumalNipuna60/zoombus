@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'active' => 'Active',
+    'approved' => 'Approved',
+    'pending' => 'Pending',
+    'rejected' => 'Rejected',
+    'suspended' => 'Suspended',
+    'refunded' => 'Refunded',
+    'inactive' => 'Inactive',
+    'approved_license' => 'approved',
+    'rejected_license' => 'rejected',
+    'approved_vehicle' => 'approved',
+    'rejected_vehicle' => 'rejected',
+    'requested' => 'Requested',
+    'completed' => 'Completed',
+    'long_parsed_ticket' => 'Ticket already parsed',
+    'long_refunded_ticket' => 'Refunded sale',
+    'long_sold_ticket' => 'Purchased ticket, not yet parsed',
+    'long_sold_ticket_driver' => 'Reserved by driver',
+    'total_approved' => 'Total (parsed)',
+    'total_unapproved' => 'Total (purchased)',
+    'total_approved_count' => 'Total (parsed) ticket count',
+    'total_unapproved_count' => 'Total (purchased) ticket count',
+    'total_sold_by_driver' => 'Total sold by driver',
+    'total_refunded' => 'Total refunded',
+];

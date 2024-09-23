@@ -1,0 +1,22 @@
+.steps_container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.language_ge .steps_container {
+    font-family: 'bpg_nino_mtavrulibold', sans-serif;
+}
+
+.steps_container > div > span {
+    margin:0 3px;
+}
+
+.language_ge .steps_container > div > span {
+    padding-bottom:5px;
+}

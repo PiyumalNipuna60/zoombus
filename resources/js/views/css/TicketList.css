@@ -1,0 +1,125 @@
+section {
+    margin:90px 20px 105px 20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh);
+    text-align: center;
+}
+
+
+section .list {
+    margin:20px 0;
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+
+section .list > a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+}
+
+section .list > a > div.item {
+    display: grid;
+    grid-template-columns: 15% 50% 35%;
+    height: 67px;
+    padding-left: 10px;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px solid #D7DDE1;
+}
+
+section .list > a:last-child > div.item {
+    border-bottom: none;
+}
+
+section .list > a > div.item .image_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+section .list > a > div.item .description {
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    align-self: center;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+section .list > a > div.item .description p.route_title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #606060;
+    margin-bottom: 4px;
+}
+.language_ge section .list > a > div.item .description p.route_title {
+    font-family: 'dejavu_sansextralight', sans-serif;
+}
+
+section .list > a > div.item .description p.route_title span {
+    color: #171F24;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+section .list > a > div.item .description p.route_destination {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+}
+
+.language_ge section .list > a > div.item .description p.route_destination {
+    font-family: 'bpg_nino_mtavrulibold', sans-serif;
+}
+
+section .list > a > div.item .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+section .list > a > div.item .content .amount {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #1308FE;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 4px;
+}
+section .list > a > div.item .content .amount span {
+    text-transform: uppercase;
+    color: #333;
+}
+section .list > a > div.item .content .details {
+    margin-top: -3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 200;
+}
+.language_ge section .list > a > div.item .content .details {
+    font-family: 'dejavu_sansextralight', sans-serif;
+}
+
+section .list > a > div.item .last_content {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+section .list > a > div.item .last_content .procent {
+    color: #1308FE;
+}
+section .list > a > div.item .last_content .procent span {
+    color: #333;
+    text-transform: uppercase;
+}
+

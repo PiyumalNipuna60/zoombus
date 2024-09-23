@@ -1,0 +1,92 @@
+[
+    {
+        "vehicle_spec_id": 1,
+        "name": "Air conditioning",
+        "locale": "en"
+    },
+    {
+        "vehicle_spec_id": 1,
+        "name": "კონდიციონერი",
+        "locale": "ka"
+    },
+    {
+        "vehicle_spec_id": 1,
+        "name": "Кондиционер",
+        "locale": "ru"
+    },
+    {
+        "vehicle_spec_id": 2,
+        "name": "TV",
+        "locale": "en"
+    },
+    {
+        "vehicle_spec_id": 2,
+        "name": "ტელევიზორი",
+        "locale": "ka"
+    },
+    {
+        "vehicle_spec_id": 2,
+        "name": "ТВ",
+        "locale": "ru"
+    },
+    {
+        "vehicle_spec_id": 3,
+        "name": "Entertainment device",
+        "locale": "en"
+    },
+    {
+        "vehicle_spec_id": 3,
+        "name": "გასართობი მოწყობილობა",
+        "locale": "ka"
+    },
+    {
+        "vehicle_spec_id": 3,
+        "name": "Развлекательное устройство",
+        "locale": "ru"
+    },
+    {
+        "vehicle_spec_id": 4,
+        "name": "Phone Charging Device",
+        "locale": "en"
+    },
+    {
+        "vehicle_spec_id": 4,
+        "name": "მობილურის დამტენი",
+        "locale": "ka"
+    },
+    {
+        "vehicle_spec_id": 4,
+        "name": "Зарядное устройство",
+        "locale": "ru"
+    },
+    {
+        "vehicle_spec_id": 5,
+        "name": "Baggage",
+        "locale": "en"
+    },
+    {
+        "vehicle_spec_id": 5,
+        "name": "ხელბარგი",
+        "locale": "ka"
+    },
+    {
+        "vehicle_spec_id": 5,
+        "name": "багаж",
+        "locale": "ru"
+    },
+    {
+        "vehicle_spec_id": 6,
+        "name": "Luxury interior",
+        "locale": "en"
+    },
+    {
+        "vehicle_spec_id": 6,
+        "name": "სალონი ლუქსი",
+        "locale": "ka"
+    },
+    {
+        "vehicle_spec_id": 6,
+        "name": "Роскошный интерьер",
+        "locale": "ru"
+    }
+]

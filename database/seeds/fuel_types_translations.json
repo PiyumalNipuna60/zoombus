@@ -1,0 +1,77 @@
+[
+    {
+        "fuel_id": 1,
+        "name": "Petrol",
+        "locale": "en"
+    },
+    {
+        "fuel_id": 1,
+        "name": "ბენზინი",
+        "locale": "ka"
+    },
+    {
+        "fuel_id": 1,
+        "name": "бензин",
+        "locale": "ru"
+    },
+    {
+        "fuel_id": 2,
+        "name": "Diesel",
+        "locale": "en"
+    },
+    {
+        "fuel_id": 2,
+        "name": "დიზელი",
+        "locale": "ka"
+    },
+    {
+        "fuel_id": 2,
+        "name": "дизель",
+        "locale": "ru"
+    },
+    {
+        "fuel_id": 3,
+        "name": "Hybrid",
+        "locale": "en"
+    },
+    {
+        "fuel_id": 3,
+        "name": "ჰიბრიდი",
+        "locale": "ka"
+    },
+    {
+        "fuel_id": 3,
+        "name": "Гибридный",
+        "locale": "ru"
+    },
+    {
+        "fuel_id": 4,
+        "name": "Electric",
+        "locale": "en"
+    },
+    {
+        "fuel_id": 4,
+        "name": "ელექტრო",
+        "locale": "ka"
+    },
+    {
+        "fuel_id": 4,
+        "name": "электрический",
+        "locale": "ru"
+    },
+    {
+        "fuel_id": 5,
+        "name": "Gas",
+        "locale": "en"
+    },
+    {
+        "fuel_id": 5,
+        "name": "გაზი",
+        "locale": "ka"
+    },
+    {
+        "fuel_id": 5,
+        "name": "газ",
+        "locale": "ru"
+    }
+]

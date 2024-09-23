@@ -1,0 +1,75 @@
+section {
+    padding-top: 30px;
+    margin:0 !important;
+}
+section h3.reverse_time {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 34px;
+    font-weight: 200;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+section h3.reverse_time p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h3.reverse_time span{
+    margin:0 8px 0 5px;
+}
+
+.language_ge section h3.reverse_time span{
+    margin-top:6px;
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+    font-size:33px;
+}
+
+.seat_description {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.seat_description .zoom_available,
+.seat_description .zoom_taken,
+.seat_description .zoom_taken_by_driver {
+    display: flex;
+    align-items: end;
+    margin-left: 5px;
+}
+.seat_description .zoom_available img,
+.seat_description .zoom_taken img,
+.seat_description .zoom_taken_by_driver img {
+    width: 14px;
+    margin-right: 7px;
+}
+.seat_description .zoom_available p.title_area,
+.seat_description .zoom_taken p.title_area,
+.seat_description .zoom_taken_by_driver p.title_area {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 11px;
+}
+.language_ge .seat_description .zoom_available p.title_area,
+.language_ge .seat_description .zoom_taken p.title_area,
+.language_ge .seat_description .zoom_taken_by_driver p.title_area {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+    font-size: 10px;
+}
+.zoom_selected_by_driver {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.zoom_selected_by_driver img {
+    width: 14px;
+    margin-right: 7px;
+}
+.zoom_selected_by_driver p.title_area {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 11px;
+}
+.language_ge .zoom_selected_by_driver p.title_area {
+    font-family: 'bpg_nino_mtavrulinormal', sans-serif;
+    font-size: 10px;
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "metal-filament-282009",
+  "private_key_id": "ae53ff7ad2b10ca3ff38b66ef1ffe5622949800e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZuUCB1K41MaZ1\nICYmq+VYKwAZgygVnjRNrwDJ1VCLG7/LSPckQkllg8rB+u93x0OVd1C9Fy9cqMHt\nS03PiWMTUMGzDz1UnrAQ8iR/ShTPRMiA5L/yhzR1xbnhgfcvUwsWdhUxBUXsBXJq\n/pQZzTJFK68HYyKa6ccI7+5vxkR0QZINJJX/jQJZHCDIKma0/QpWP5CNTpyXzsro\nb8we4t6b3lVDEUWDoYcTmSULb4vGfox6GINi7mZBPz3qrRHZC0rqcV+3zBkmslB+\nn7OyIiPnZTVBaHFI9zLLXuVck+rmuNHlrTXFQ3NcaxXDV47MM0tCsQ8GZNw6hBRD\nTgY9zFqVAgMBAAECggEAAm6dapsxrfzwadRdMLyQqt/iF/wygAP80WsAHyu6QwTh\nQIKqZhXfztnpHipw2d2YjZcgCFi1tKXa8re5tl+HwzZj+jLUTHlwUzl35bxyB+Wy\nDVngzgirce8D66G2x+ki0Xz/XBqTDyGkHKSxiqno4u5rvbFNDejIynqu/Gx9JRpK\nzO6GaXYPJuHU1N9VcBWrcudO2KPRPtdQMdRkyM1IkKs/EjC2sLpYbnqASnqo/qGq\njggZ3TLF0TfVNsW1OU4iluEdlnSNaLvs9M2skpMElcyLI7cTzELKT5AK7mBsjPly\nv8Z4zPKHrZmdDsypkcbtLCA1BVzgyTVZy1SdN7cyWQKBgQDwnoGenhlZWW7CXAV1\n/5juIjA7OS19bwpo5i2OaIaK0PfO09ZE3CHeONviXMebqDHCOcuG8b33GX5UtEAU\n/JMEMgrqgsLe1WKPNXYItDrljxtDntP1p1XFvPlSocnSHGYRFBnqvdrHtirv568R\nObf6W1UpOvRuFp10u3OMFTZNeQKBgQDnpBVH/QOpmiDOsCitp82WXTuvcxPnH/I1\nX66ER91v/Pi90uEO5TS2aHk13gbMuiVTqtA2pdPZYDvZhv9kMGo1hbYcTbo3geNu\nY19yUF5fbNijPm94R0sHO3DpN8t96h2yjI0tGcS1+l1oeYXq12aOdaLkG/X1aOMY\nokH3uf+a/QKBgQDQLnO7RtJrycLYikF3TEOGlTHhq6C+C9qX077KnYj6hb5Bxmp2\nfXcYC13DRb614BndD6AWCwXuyrHQm3tuLPEOCjYDnEr5/OkfOoP7F+R1RRGzubFt\nsu+0+8FDSxOQpF1ynU+nF8g4TlZr5qpDXwrcozTVTVq5/PsSSjS4mIm5EQKBgE8r\nXnanPBw4aGQcAxsvEe4FWYPioffJjF+/nwbpBP7kiCNgsrkDj5uUY3EMvGg2atGI\nvPcggCJ4aJw1Lo6QmYxHcfGEg1O7Wf79ib6pR0f4DKbmjPSf8T28jB+5iRw06wd+\nUDYM65WCx3AQsLuN+ShRfmXWRJ8mxQ9DTaacdIcFAoGAAM0+HG2HYZW2BVKVODZW\nDF6l/OTSEBtjwI2PJ3HoPKHQczDrfpQ4FWlA8nQoREWf0JBlj1rR9TTvPvybS0vE\nzmT8ByYq80HIpSoKpSTCXs4mdbq8mqzhu6Ngn1iLCzOggpS97oJnqEpx0gqDdRPE\nCmfX5AGGhyqid5pwC4l1yBU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "main-service-account@metal-filament-282009.iam.gserviceaccount.com",
+  "client_id": "115539423313475303221",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/main-service-account%40metal-filament-282009.iam.gserviceaccount.com"
+}

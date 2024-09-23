@@ -1,0 +1,32 @@
+[
+    {
+        "route_type_id": 1,
+        "name": "მიკროავტობუსი",
+        "locale": "ka"
+    },
+    {
+        "route_type_id": 1,
+        "name": "Mini bus",
+        "locale": "en"
+    },
+    {
+        "route_type_id": 1,
+        "name": "Мини автобус",
+        "locale": "ru"
+    },
+    {
+        "route_type_id": 2,
+        "name": "ავტობუსი",
+        "locale": "ka"
+    },
+    {
+        "route_type_id": 2,
+        "name": "Bus",
+        "locale": "en"
+    },
+    {
+        "route_type_id": 2,
+        "name": "автобус",
+        "locale": "ru"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Admin Account",
+        "email": "admin@zoombus.net",
+        "phone_number": "+995555555555",
+        "password": "$2y$10$qATm1XVZWK21rEGi3sFAbeMYgIdi2h6vU4VwEDLYBUcuD4E9tJoly",
+        "status": 2,
+        "id_number": null,
+        "balance": 0.00,
+        "affiliate_code": null,
+        "country_id": 80,
+        "city": null,
+        "birth_date": null,
+        "gender_id": 1,
+        "remember_token": null,
+        "created_at": "2019-07-09 01:29:42",
+        "updated_at": "2019-07-10 18:34:22"
+    }
+]

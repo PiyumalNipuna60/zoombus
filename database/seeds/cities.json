@@ -1,0 +1,116 @@
+[
+    {
+        "id": "1",
+        "code": "TB",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "2",
+        "code": "BA",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "3",
+        "code": "GO",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "4",
+        "code": "PO",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "5",
+        "code": "KU",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "6",
+        "code": "TE",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "7",
+        "code": "GU",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "8",
+        "code": "KO",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "9",
+        "code": "KH",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "10",
+        "code": "RU",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "11",
+        "code": "ZU",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "12",
+        "code": "SA",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "13",
+        "code": "SE",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "14",
+        "code": "MA",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "15",
+        "code": "AK",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "16",
+        "code": "OZ",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "17",
+        "code": "KA",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "18",
+        "code": "TC",
+        "country_id": 80,
+        "extension": "jpeg"
+    },
+    {
+        "id": "19",
+        "code": "TS",
+        "country_id": 80,
+        "extension": "jpeg"
+    }
+]

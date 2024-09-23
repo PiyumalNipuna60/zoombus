@@ -1,0 +1,46 @@
+{
+    "ka": [
+        {
+            "value": 80,
+            "text": "საქართველო"
+        },
+        {
+            "value": 16,
+            "text": "აზერბაიჯანი"
+        },
+        {
+            "value": 12,
+            "text": "სომხეთი"
+        },
+        {
+            "value": 222,
+            "text": "თურქეთი"
+        },
+        {
+            "value": 181,
+            "text": "რუსეთის ფედერაცია"
+        }
+    ],
+    "en": [
+        {
+            "value": 80,
+            "text": "Georgia"
+        },
+        {
+            "value": 16,
+            "text": "Azerbaijan"
+        },
+        {
+            "value": 12,
+            "text": "Armenia"
+        },
+        {
+            "value": 222,
+            "text": "Turkey"
+        },
+        {
+            "value": 181,
+            "text": "Russian Federation"
+        }
+    ]
+}

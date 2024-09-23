@@ -1,0 +1,12 @@
+[
+    {
+        "key": "minibus",
+        "slug": "minibus",
+        "faicon": "fa-bus"
+    },
+    {
+        "key": "bus",
+        "slug": "bus",
+        "faicon": "fa-bus"
+    }
+]

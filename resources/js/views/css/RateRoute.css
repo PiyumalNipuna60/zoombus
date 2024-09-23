@@ -1,0 +1,23 @@
+section {
+    margin:90px 20px 105px 20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh);
+}
+
+section .personal_photo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+section .personal_photo img {
+    display: block;
+    width: 123px;
+    height: 123px;
+    border-radius: 100%;
+}
