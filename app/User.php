@@ -113,24 +113,33 @@ class User extends Authenticatable {
         $query->where('status', 3);
     }
 
+    /**
+     * Define an accessor for the `extension` attribute.
+     */
+    public function getExtensionAttribute()
+    {
+        // Default to 'jpg' if extension is not set
+        return $this->attributes['extension'] ?? 'jpg';
+    }
+
     public function photoExists() {
-        if (Storage::disk('s3')->exists('users/' . $this->id . '.'.$this->extension)) {
-            return true;
-        } else {
-            return false;
-        }
+        // if (Storage::disk('s3')->exists('users/' . $this->id . '.'.$this->extension)) {
+        //     return true;
+        // } else {
+        //     return false;
+        // }
+        return true;
     }
 
     public function photoById($id) {
         $user = User::whereId($id)->first('extension');
         $extension = $user->extension ?? 'jpg';
         if (Storage::disk('s3')->exists('users/' . $id . '.'.$extension)) {
-            return Storage::temporaryUrl('users/'.$id.'.'.$user->extension, now()->addMinutes(5));
+            return Storage::temporaryUrl('users/'.$id.'.'.$extension, now()->addMinutes(5));
         } else {
             return '/images/users/default.png';
         }
     }
-
 
     public function photoSmallById($id) {
         $user = User::whereId($id)->first('extension');
@@ -151,19 +160,22 @@ class User extends Authenticatable {
     }
 
     public function photo() {
-        if (Storage::disk('s3')->exists('users/' . $this->id . '.' . $this->extension)) {
-            return Storage::temporaryUrl('users/' . $this->id . '.'.$this->extension, now()->addMinutes(5));
-        } else {
-            return '/images/users/default.png';
-        }
+        // if (Storage::disk('s3')->exists('users/' . $this->id . '.' . $this->extension)) {
+        //     return Storage::temporaryUrl('users/' . $this->id . '.'.$this->extension, now()->addMinutes(5));
+        // } else {
+        //     return '/images/users/default.png';
+        // }
+        return '/images/users/default.png';
     }
 
     public function photoSmall() {
-        if (Storage::disk('s3')->exists('users/small/' . $this->id . '.' . $this->extension)) {
-            return Storage::temporaryUrl('users/small/' . $this->id . '.'.$this->extension, now()->addMinutes(5));
-        } else {
-            return '/images/users/small/default.png';
-        }
+        // if (Storage::disk('s3')->exists('users/small/' . $this->id . '.' . $this->extension)) {
+        //     return Storage::temporaryUrl('users/small/' . $this->id . '.'.$this->extension, now()->addMinutes(5));
+        // } else {
+        //     return '/images/users/small/default.png';
+        // }
+        return '/images/users/small/default.png';
+        
     }
 
     public function driver() {
@@ -198,7 +210,6 @@ class User extends Authenticatable {
         return $this->hasMany('App\Payouts', 'user_id');
     }
 
-
     public function admin() {
         return $this->hasOne('App\Admins', 'user_id');
     }
@@ -207,13 +218,12 @@ class User extends Authenticatable {
         return $this->hasMany('App\AffiliateCodes', 'user_id');
     }
 
-
     public function gender() {
         return $this->belongsTo('App\Gender', 'gender_id');
     }
 
     public function balanceUpdates() {
-        return $this->hasMany('App\BalanceUpdates', 'user_id');
+        return $this->hasMany('App\BalanceUpdate', 'user_id');
     }
 
     public function country() {
