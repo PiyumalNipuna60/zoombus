@@ -27,17 +27,17 @@ class DriverController extends ValidationController
         $realId = $id ?? \Auth::user()->id;
         $agent = new Agent();
         $extension = Driver::whereUserId($realId)->first('front_side_extension');
-        // if (Storage::disk('s3')->exists('drivers/license/' . $realId . '/front_side.' . $extension->front_side_extension)) {
-        //     if ($agent->isMobile()) {
-        //         return Storage::temporaryUrl('drivers/license/' . $realId . '/front_side.' . $extension->front_side_extension, now()->addMinutes(5));
-        //     }
-        //     else {
-        //         return 'drivers/license/' . $realId . '/front_side.' . $extension->front_side_extension;
-        //     }
-        // }
-        // else {
-        //     return false;
-        // }
+        if (Storage::disk('s3')->exists('drivers/license/' . $realId . '/front_side.' . $extension->front_side_extension)) {
+            if ($agent->isMobile()) {
+                return Storage::temporaryUrl('drivers/license/' . $realId . '/front_side.' . $extension->front_side_extension, now()->addMinutes(5));
+            }
+            else {
+                return 'drivers/license/' . $realId . '/front_side.' . $extension->front_side_extension;
+            }
+        }
+        else {
+            return false;
+        }
     }
 
 
@@ -46,17 +46,17 @@ class DriverController extends ValidationController
         $realId = $id ?? \Auth::user()->id;
         $agent = new Agent();
         $extension = Driver::whereUserId($realId)->first('back_side_extension');
-        // if (Storage::disk('s3')->exists('drivers/license/' . $realId . '/back_side.' . $extension->back_side_extension)) {
-        //     if ($agent->isMobile()) {
-        //         return Storage::temporaryUrl('drivers/license/' . $realId . '/back_side.' . $extension->back_side_extension, now()->addMinutes(5));
-        //     }
-        //     else {
-        //         return 'drivers/license/' . $realId . '/front_side.' . $extension->back_side_extension;
-        //     }
-        // }
-        // else {
-        //     return false;
-        // }
+        if (Storage::disk('s3')->exists('drivers/license/' . $realId . '/back_side.' . $extension->back_side_extension)) {
+            if ($agent->isMobile()) {
+                return Storage::temporaryUrl('drivers/license/' . $realId . '/back_side.' . $extension->back_side_extension, now()->addMinutes(5));
+            }
+            else {
+                return 'drivers/license/' . $realId . '/front_side.' . $extension->back_side_extension;
+            }
+        }
+        else {
+            return false;
+        }
     }
 
     protected function vehicleFrontSide($id)
